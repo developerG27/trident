@@ -1,61 +1,70 @@
 .text-platzi{
-  color:#97c93e !important;
+ color:#97c93e !important;
 }
 .btn-platzi{
-  background-color: #97c93e !important;
-  color:#fff;
+ background-color: #97c93e !important;
+ color:#fff;
 }
 .btn-platzi:hover{
-  background-color:#82ad36 !important;
+ background-color:#82ad36 !important;
+}
+#header{
+ padding: .2px !important;
+ background: #fff;
 }
 #header img{
-  width: 160px;
+ width: 160px;
 }
 #main .carousel-inner img{
-  max-height:70vh;
-  object-fit:cover;
-  filter: grayscale(70%);
+ max-height:70vh;
+ object-fit:cover;
+ filter: grayscale(70%);
 }
 #carousel {
-  position:relative;
+ position:relative;
 }
 #carousel .overlay{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left: 0;
-  right:0;
-  background-color: rgba(0,0,0,0.5);
-  color:#fff;
+ position:absolute;
+ top:0;
+ bottom:0;
+ left: 0;
+ right:0;
+ background-color: rgba(0,0,0,0.5);
+ color:#fff;
 }
 #carousel .overlay .container,
 #carousel .overlay .row{
-  height:100%;
+ height:100%;
 }
 #place-time{
-  background-color:#343a40;
-  color: #fff;
+ background-color:#f9f9f9;
+ color: #111;
+}
+#place-time p {
+ color:#111;
 }
 #place-time img{
-  max-width: 100%;
+ max-width: 100%;
 }
 #footer{
-  background: -webkit-linear-gradient(0deg,#1c3643,#273b47 25%,#1e5372);
+ background: #111;
 }
 #footer a{
-  color: #fff;
+ color: #fff;
 }
-
+#team{
+ background: rgb(248, 248, 248,.5);
+}
 #team .card{
-  position:relative !important;
-  cursor:pointer;
+ position:relative !important;
+ cursor:pointer;
 }
 .card-body{
-  display:none;
+ display:none;
 }
 
 .card:hover h5.card-title{
-margin-top: 170git ppx;
+margin-top: 100px;
 }
 .card:hover .card-body{
 display:block;
@@ -63,18 +72,38 @@ display:block;
 }
 
 .card-body{
-  position:absolute !important;
-  bottom: 0px;
-  width: 100%;
-  height:100%;
-  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.6));
+ position:absolute !important;
+ bottom: 0px;
+ width: 100%;
+ height:100%;
+ background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.6));
 }
 .card-body h5,p{
-  color: #fff;
+ color: #fff;
 }
 h5.card-title{
-  
-}
+ }
 .card img{
-  object-fit:cover;
+ object-fit:cover;
 }
+iframe{
+ width:100%;
+ height:400px;
+}
+
+#tuoiProgetti textarea{
+ height: 130px;
+}
+#lavoraConNoi textarea{
+ height: 130px;
+}
+#servizi{
+ background: rgb(248, 248, 248,.5);
+}
+a{
+ color:#111;
+}
+#modalContact textarea{
+ height: 150px;
+}
+
