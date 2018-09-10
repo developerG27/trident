@@ -99,3 +99,7 @@ a{
 .nav_toggle img{
   max-width: 20px;
 }
+body{
+  max-width:100%;
+  overflow: hidden;
+}
