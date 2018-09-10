@@ -1,13 +1,3 @@
-.text-platzi{
- color:#97c93e !important;
-}
-.btn-platzi{
- background-color: #97c93e !important;
- color:#fff;
-}
-.btn-platzi:hover{
- background-color:#82ad36 !important;
-}
 #header{
  padding: .2px !important;
  background: #fff;
@@ -63,14 +53,9 @@
  display:none;
 }
 
-/* .card:hover h5.card-title{
-margin-top: 100px;
-} */
 .card:hover .card-body{
 display:block;
-
 }
-
 .card-body{
  position:absolute !important;
  bottom: 0px;
@@ -90,7 +75,6 @@ iframe{
  width:100%;
  height:400px;
 }
-
 #tuoiProgetti textarea{
  height: 130px;
 }
@@ -106,7 +90,6 @@ a{
 #modalContact textarea{
  height: 150px;
 }
-
 #servizi .row .col{
   margin-bottom: 50px;
 }
@@ -115,4 +98,7 @@ a{
 }
 .nav_toggle img{
   max-width: 20px;
+}
+.nav-item{
+  padding-left: 20px;
 }
