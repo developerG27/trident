@@ -63,9 +63,9 @@
  display:none;
 }
 
-.card:hover h5.card-title{
+/* .card:hover h5.card-title{
 margin-top: 100px;
-}
+} */
 .card:hover .card-body{
 display:block;
 
@@ -107,3 +107,12 @@ a{
  height: 150px;
 }
 
+#servizi .row .col{
+  margin-bottom: 50px;
+}
+.navbar-toggler-icon{
+  color:#111;
+}
+.nav_toggle img{
+  max-width: 20px;
+}

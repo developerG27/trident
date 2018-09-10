@@ -18,42 +18,43 @@
 <body data-spy="scroll" data-target="navbarSupportedContent" data-offset="67">
  <!-- Header -->
  <header>
-   <nav id="header" class="navbar navbar-expand-lg fixed-top">
-     <div class="container">
-       <a class="navbar-brand" href="#">
-         <img src="assets/logo.png" alt="Platzi logo">
-       </a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
+  <nav id="header" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="Platzi logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="nav_toggle"> <img src="assets/ico/bars-solid.svg" alt=""></span>
+      </button>
 
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto text-uppercase">
-           <li class="nav-item">
-             <a class="nav-link" href="#main">Home</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="team.html">Team</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#place-time">Dove siamo</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="" data-target="#modalContact" data-toggle="modal"> Contattaci</a>
-           </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link" href="#main">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#place-time">Dove siamo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" data-target="#modalContact" data-toggle="modal"> Contattaci</a>
+          </li>
 
-         </ul>
+        </ul>
 
-       </div>
-     </div>
-   </nav>
- </header>
- <!-- /Header -->
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- /Header -->
+
 
  <!-- Carousel -->
  <section id="main">
-   <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+   <div id="carousel" class="carousel slide d-none d-md-block" data-ride="carousel" data-pause="false">
      <div class="carousel-inner">
        <div class="carousel-item active">
          <img class="d-block w-100" src="assets/slide_01.jpg" alt="First slide">
@@ -68,7 +69,7 @@
          <div class="container">
            <div class="row align-items-center">
              <div class="col-md-6 offset-md-6 text-center text-md-right h5 font-weight-light">
-               <p class="d-none d-md-block text-justify mt-5">Una start up innovativa che nasce dalla dedizione del
+               <p class="d-none d-none d-xl-block text-justify mt-5">Una start up innovativa che nasce dalla dedizione del
                  suo team per le svariate attività e passioni che lo
                  accomunano, coltivate nei diversi ambienti professionali frequentati; tutto questo è Trident Suisse,
                  che
@@ -83,7 +84,7 @@
                  e creato con ambizione e professionalità.
                </p>
 
-               <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modalContact">
+               <button type="button" class="d-none d-xl-block btn btn-outline-light" data-toggle="modal" data-target="#modalContact">
                  Scopri di più > </button>
              </div>
            </div>
@@ -97,66 +98,70 @@
  <!-- Servizi -->
  <section id="servizi">
    <div class="container-fluid">
-     <div class="row">
+     <div class="row mt-4">
        <div class="col text-center text-uppercase pt-5">
          <small>I nostri</small>
          <h2>Servizi</h2>
        </div>
      </div>
      <div class="row text-center p-3 h5 font-weight-light">
-       <div class="col-3">
+       <div class="col-12 col-md-6 col-lg-3">
          <img src="assets/ico/01_ws.png" alt="" class="pb-3">
          <div class="row text-center">
            <div class="col">Sviluppo Web</div>
          </div>
        </div>
-       <div class="col-3">
+       <div class="col-12 col-md-6 col-lg-3">
          <img src="assets/ico/02_wd.png" alt="" class="pb-3">
          <div class="row text-center">
            <div class="col">Web & Graphic Design</div>
          </div>
        </div>
-       <div class="col-3">
+       <div class="col-12 col-md-6 col-lg-3">
          <img src="assets/ico/03_ec.png" alt="" class="pb-3">
          <div class="row text-center">
            <div class="col">E-commerce</div>
          </div>
        </div>
 
-       <div class="col-3">
+       <div class="col-12 col-md-6 col-lg-3">
          <img src="assets/ico/04_app.png" alt="" class="pb-3">
          <div class="row text-center">
            <div class="col">Sviluppo App</div>
          </div>
        </div>
+
+       <div class="col-12 col-md-6 col-lg-3">
+        <img src="assets/ico/05_ma.png" alt="" class="pb-3">
+        <div class="row text-center">
+          <div class="col">Web Marketing</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="assets/ico/06_seo.png" alt="" class="pb-3">
+        <div class="row text-center">
+          <div class="col">Seo & Sem</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="assets/ico/07_social.png" alt="" class="pb-3">
+        <div class="row text-center">
+          <div class="col">Social Media Marketing</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="assets/ico/08_em.png" alt="" class="pb-3">
+        <div class="row text-center">
+          <div class="col">E-Mail & Direct Marketing</div>
+        </div>
+      </div>
      </div>
 
+     
+  </div>
+
      <div class="row text-center p-3 h5 font-weight-light">
-       <div class="col-3">
-         <img src="assets/ico/05_ma.png" alt="" class="pb-3">
-         <div class="row text-center">
-           <div class="col">Web Marketing</div>
-         </div>
-       </div>
-       <div class="col-3">
-         <img src="assets/ico/06_seo.png" alt="" class="pb-3">
-         <div class="row text-center">
-           <div class="col">Seo & Sem</div>
-         </div>
-       </div>
-       <div class="col-3">
-         <img src="assets/ico/07_social.png" alt="" class="pb-3">
-         <div class="row text-center">
-           <div class="col">Social Media Marketing</div>
-         </div>
-       </div>
-       <div class="col-3">
-         <img src="assets/ico/08_em.png" alt="" class="pb-3">
-         <div class="row text-center">
-           <div class="col">E-Mail & Direct Marketing</div>
-         </div>
-       </div>
-     </div>
+       
    </div>
  </section>
  <!-- /Servizi -->
@@ -206,12 +211,12 @@
                <h2>Partner</h2>
              </div>
        </div>
-       <div class="row">
-         <div class="col"><img src="assets/partner/01.jpg" alt=""></div>
-         <div class="col"><img src="assets/partner/02.jpg" alt=""></div>
-         <div class="col"><img src="assets/partner/03.jpg" alt=""></div>
-         <div class="col"><img src="assets/partner/04.jpg" alt=""></div>
-         <div class="col"><img src="assets/partner/06.jpg" alt=""></div>
+       <div class="row text-center d-flex justify-content-center">
+         <div class="col-12 col-md-6 col-lg-4"><img src="assets/partner/01.jpg" alt=""></div>
+         <div class="col-12 col-md-6 col-lg-4"><img src="assets/partner/02.jpg" alt=""></div>
+         <div class="col-12 col-md-6 col-lg-4"><img src="assets/partner/03.jpg" alt=""></div>
+         <div class="col-12 col-md-6 col-lg-4"><img src="assets/partner/04.jpg" alt=""></div>
+         <div class="col-12 col-md-6 col-lg-4 text-center"><img src="assets/partner/06.jpg" alt=""></div>
        </div>
      </div>
    </section>
@@ -249,14 +254,14 @@
  <footer id="footer" class="pb-4 pt-4">
    <div class="container">
      <div class="row">
-       <div class="col-6">
+       <div class="col-12 col-md-6">
          <p>
            Copyright © 2018 Trident CH All rights reserved.<br>
            Via San Pietro Pambio 1, 6902 Lugano-Paradiso<br>
            tel. +41 091 210 3497
          </p>
        </div>
-       <div class="col-6 text-right">
+       <div class="col-12 col-md-6 text-right">
          <img src="assets/logo.png" alt="">
        </div>
 
@@ -266,7 +271,7 @@
  <!-- /Footer -->
 
  <!-- Modal -->
- <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade display-flex justify-content-center col-12" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog" role="document">
      <div class="modal-content">
        <div class="modal-header">
